@@ -227,7 +227,7 @@
       }
 
       > viewport {
-        > list.navigation-sidebar {
+        list.navigation-sidebar {
           padding: 16px 0 16px 0;
           background: none;
           border-radius: $window-radius - $space-size;
@@ -618,6 +618,17 @@
 .nautilus-file-chooser {
   .content-pane {
     background-color: $base;
+  }
+}
+
+.mc-toggle-group {
+  padding: 0;
+  border-radius: $circular-radius;
+  background-color: $fill;
+
+  > button {
+    border-radius: $circular-radius;
+    padding: 0 2px;
   }
 }
 
